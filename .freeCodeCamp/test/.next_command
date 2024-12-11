@@ -43,3 +43,8 @@ git fetch origin main
 git merge origin main
 git fetch origin main
 git add .
+git commit -m "second commit"
+git push -u origin main
+git pull origin main
+git push -f -u origin main
+git add .
