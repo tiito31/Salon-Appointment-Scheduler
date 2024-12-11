@@ -55,3 +55,8 @@ git push -u origin main
 git fetch origin main
 git commit -m "Edit salon.sh"
 git add .
+git commit -m "Edit salon.sh"
+git push -f -u origin main
+git pull origin main
+git init
+git add .
