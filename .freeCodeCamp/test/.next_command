@@ -60,3 +60,13 @@ git push -f -u origin main
 git pull origin main
 git init
 git add .
+git commit -m "edit salon.sql"
+git branch -M main
+git push -f -u origin main
+chmod +x salon.sh
+./salon.sh
+pg_dump -cC --inserts -U freecodecamp salon > salon.sql
+psql -U postgres < salon.sql
+./salon.sh
+psql -U postgres < salon.sql
+./salon.sh
