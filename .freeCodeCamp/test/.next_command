@@ -48,3 +48,10 @@ git push -u origin main
 git pull origin main
 git push -f -u origin main
 git add .
+git commit -m "Edit salon.sh"
+git push -u main
+git remote -v
+git push -u origin main
+git fetch origin main
+git commit -m "Edit salon.sh"
+git add .
